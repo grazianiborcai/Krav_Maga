@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_url" translatable="false">https://mind5.com.br:8443/Agenda_WS/</string>
+</resources>

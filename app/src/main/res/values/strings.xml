@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Krav Maga</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_dont_match_password">Passwords don\'t match</string>
+    <string name="error_invalid_password">This password is too short, type at least six characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email
+        completions.
+    </string>
+    <string name="forgot_login">Forgot my password</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="register">Register</string>
+    <string name="results">results</string>
+    <string name="register_owner">Register Owner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="section_format">Page:</string>
+    <string name="services">Services</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="server_unavailable">Server is unavailable</string>
+    <string name="server_error">Something wrong happend on the server</string>
+    <string name="db_error">Something wrong happend on the database</string>
+    <string name="unauthorized">This Login/password are incorrect</string>
+    <string name="emptyList">No items here</string>
+    <string name="emptyList2">The applied filter did not return any service!\n\nUpdate your filter</string>
+    <string name="emptyPros">No professionals available</string>
+    <string name="emptyStores">No stores available</string>
+    <string name="scheduleDateHeader">Schedule date</string>
+    <string name="storeHeader">Stores</string>
+    <string name="storeNavHeader">Our Stores</string>
+    <string name="professionalHeader">Professionals</string>
+    <string name="clear">Clear</string>
+    <string name="shoppingcart">Shopping cart</string>
+    <string name="cards">Credit cards</string>
+    <string name="schedule">Schedule</string>
+    <string name="our_stores">Stores</string>
+    <string name="about">About</string>
+    <string name="logout">Log Out</string>
+    <string name="adicionarNovaConta">Create account</string>
+    <string name="birthday">Birthday</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="lastname">Surname</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="acceptTermsUse">I have read and accept the <a href="http://www.google.com.br/#q=privacy+policy">privacy policy</a> and <a href="http://www.google.com.br/#q=terms+of+use">terms of use</a></string>
+    <string name="invalid_phone">Invalid phone number</string>
+    <string name="accountDetais">Account details</string>
+    <string name="appAboutTitle">Agenda Werner App</string>
+    <string name="aboutDevelopedBy">Developed by MIND5</string>
+    <string name="aboutDevelopedIn">Developed in 2015-2016</string>
+    <string name="privacyPolicy"><a href="http://www.google.com">Privacy Policy</a></string>
+    <string name="termsOfUse"><a href="http://www.google.com">Terms of Use</a></string>
+    <string name="askLogout">Would you really like to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_email_already_exists">Email already exists</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spinnerItemSelect">Select Item</string>
+    <string name="information">Information</string>
+    <string name="spinnerNoPreferenceEmployeeItem">No preferences</string>
+    <string name="version">Version</string>
+    <string name="updateVersion">Update</string>
+    <string name="shortshoppingcart">Cart</string>
+    <string name="service">Service</string>
+    <string name="unavailableItem">Unavailable item</string>
+    <string name="deleteItem">Delete item</string>
+    <string name="deleteItemQuestion">Do you really want to delete this item?</string>
+    <string name="yesDelete">Yes, delete</string>
+    <string name="noComeBack">No, back</string>
+    <string name="emptyCart">Empty cart</string>
+    <string name="addCard">Add card</string>
+    <string name="payment">Payment</string>
+    <string name="selectCard">Select a card</string>
+    <string name="addnewcard">Add new card</string>
+    <string name="card_successfully_added">Credit card successfully added</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="cardDetails">Card details</string>
+    <string name="nameAsOnCard">Name as on card</string>
+    <string name="cardNumber">Card number</string>
+    <string name="expirationDate">Expiration date</string>
+    <string name="securityCode">CVC</string>
+    <string name="preBookedOK">Pre-booking was successful. You have up to 10 minutes to complete payment.</string>
+    <string name="gender">Gender</string>
+    <string name="date">Date</string>
+    <string name="validity">Expiration</string>
+    <string name="CPFCNPJ">CPF/CNPJ</string>
+    <string name="birthdate">Birthday</string>
+    <string name="invalid_credit_card_number">Invalid credit card number</string>
+    <string name="error_invalid_identifier">Invalid indentifier</string>
+    <string name="error_invalid_cvc">Invalid card verification value</string>
+    <string name="CPF">CPF</string>
+    <string name="CNPJ">CNPJ</string>
+    <string name="updateCustomerData">Modify account data</string>
+    <string name="changePassword">Change password</string>
+    <string name="accountUpdated">Your account data has been updated</string>
+    <string name="currentPassword">Current password</string>
+    <string name="newpassword">New password</string>
+    <string name="recoveryPasswCode">Type the code sent to e-mail</string>
+    <string name="recoveryPasswEmail">Type the password recovery email</string>
+    <string name="forgotPassword">Forgot my password</string>
+    <string name="send">Send</string>
+    <string name="codeDontMatch">Code don\'t match, please review</string>
+    <string name="passwordChanged">Password has been changed successfully</string>
+    <string name="confirmation_grettings">Hi %1$s,</string>
+    <string name="confirmation_id">Your appointment %1$s was successfully confirmed</string>
+    <string name="valorTotal">Full Amount</string>
+    <string name="storeFinder">Store Finder</string>
+    <string name="scheduleServices">Scheduled services</string>
+    <string name="noSchedule">No schedule found</string>
+    <string name="Location">Searching for location...</string>
+    <string name="semItensDisponiveis">There\'s no items available</string>
+</resources>

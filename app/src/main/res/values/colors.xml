@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="dialog_item_pressed_color">#DDDDDD</drawable>
+    <!--Main collors begin-->
+    <color name="colorPrimaryDark">#455A64</color><!--700-->
+    <!--<color name="colorPrimaryDark">#00695C</color>-->
+    <color name="colorPrimaryMedium">#546E7A</color><!--600-->
+    <!--<color name="colorPrimaryMedium">#00796B</color>-->
+    <color name="colorPrimary">#607D8B</color><!--500-->
+    <color name="colorPrimaryTrans">#80607D8B</color>
+    <color name="colorButton">#90A4AE</color><!--300-->
+    <color name="colorButtonTrans">#8090A4AE</color>
+    <color name="colorBottomButtonPressed">#d15050</color>
+    <!--<color name="colorBottomButtonPressed">#26A69A</color>-->
+    <color name="calendarSelectionColor">#c62828</color>
+    <!--<color name="calendarSelectionColor">#009688</color>-->
+    <color name="red">#FFFF0000</color>
+    <!--<color name="red">#008080</color>-->
+    <!--Main collors end-->
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBottomButton">#29abe2</color>
+    <color name="colorDisabled">#4D767676</color>
+    <color name="colorAccent2">#99FFFFFF</color>
+    <color name="transp">#33ffffff</color>
+    <color name="colorControlNormal">#606060</color>
+    <color name="colorControlActivated">#FFFFFF</color>
+    <color name="colorControlHighlight">#33FFFFFF</color>
+    <color name="bottomButtonPressed">#6629abe2</color>
+    <color name="divider">#adadad</color>
+    <color name="semitransparent">#42040404</color>
+    <color name="storeHeaderGray">#cccccc</color>
+
+
+</resources>

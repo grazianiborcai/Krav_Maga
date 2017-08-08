@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Krav Maga</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">ENTRAR</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">Endereço de e-mail inválido</string>
+    <string name="error_dont_match_password">Senhas não conferem</string>
+    <string name="error_invalid_password">Senha muito curta, digite pelo menos 6 caracteres</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email
+        completions.
+    </string>
+    <string name="forgot_login">Esqueci minha senha</string>
+    <string name="create_an_account">CRIAR UMA CONTA</string>
+    <string name="register">Registrar</string>
+    <string name="results">resultados</string>
+    <string name="register_owner">Registrar proprietário</string>
+
+    <string name="navigation_drawer_open">Abrir navegador</string>
+    <string name="navigation_drawer_close">Fechar navegador</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <string name="section_format">Pagina: </string>
+    <string name="services">Serviços</string>
+    <string name="cancel">Cancelar</string>
+    <string name="server_unavailable">Servidor indisponível</string>
+    <string name="server_error">Algo de errado ocorreu com o servidor</string>
+    <string name="db_error">Algo de errado ocorreu com o banco de dados</string>
+    <string name="unauthorized">Conta ou senha incorretas</string>
+    <string name="emptyList">Nenhum item encontrado</string>
+    <string name="emptyList2">O filtro aplicado não encontrou nenhum serviço!\n\nEdite seu filtro</string>
+    <string name="emptyPros">Nenhum profissional disponível</string>
+    <string name="emptyStores">Nenhuma loja disponível</string>
+    <string name="scheduleDateHeader">Data de agendamento</string>
+    <string name="storeHeader">Lojas</string>
+    <string name="storeNavHeader">Nossas Lojas</string>
+    <string name="professionalHeader">Profissionais</string>
+    <string name="clear">Limpar</string>
+    <string name="shoppingcart">Carrinho de compras</string>
+    <string name="cards">Cartões</string>
+    <string name="schedule">Agendamento</string>
+    <string name="our_stores">Nossas lojas</string>
+    <string name="about">Sobre</string>
+    <string name="logout">Log Out</string>
+    <string name="adicionarNovaConta">Adicionar nova conta</string>
+    <string name="birthday">Aniversário</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefone</string>
+    <string name="name">Nome</string>
+    <string name="lastname">Sobrenome</string>
+    <string name="confirmPassword">Confirmação da senha</string>
+    <string name="password">Senha</string>
+    <string name="invalid_phone">Número de telefone inválido</string>
+    <string name="accountDetais">Detalhes da conta</string>
+    <string name="appAboutTitle">Aplicativo Agenda Werner</string>
+    <string name="aboutDevelopedBy">Desenvolvido por MIND5</string>
+    <string name="version">Versão</string>
+    <string name="aboutDevelopedIn">Desenvolvido em 2015-2016</string>
+    <string name="privacyPolicy"><a href="http://www.google.com">Política de Privacidade</a></string>
+    <string name="termsOfUse"><a href="http://www.google.com">Termos de Uso</a></string>
+    <string name="askLogout">Deseja realmente efetuar o log out da sua conta?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="title_email_already_exists">Email já cadastrado</string>
+    <string name="spinnerItemSelect">Selecionar</string>
+    <string name="information">Informação</string>
+    <string name="spinnerNoPreferenceEmployeeItem">Sem preferência</string>
+    <string name="updateVersion">Atualização</string>
+    <string name="shortshoppingcart">Carrinho</string>
+    <string name="service">Serviço</string>
+    <string name="unavailableItem">Item indisponível</string>
+    <string name="deleteItem">Excluir item</string>
+    <string name="deleteItemQuestion">Você tem certeza que deseja excluir esse item?</string>
+    <string name="yesDelete">Sim, excluir</string>
+    <string name="noComeBack">Não, voltar</string>
+    <string name="emptyCart">Carrinho vazio</string>
+    <string name="addCard">Adicionar cartão</string>
+    <string name="payment">Pagamento</string>
+    <string name="selectCard">Selecione o cartão</string>
+    <string name="addnewcard">Adicionar novo cartão</string>
+    <string name="card_successfully_added">Cartão de crédito salvo com sucesso</string>
+    <string name="confirmation">Confirmação</string>
+    <string name="cardDetails">Detalhes do cartão</string>
+    <string name="nameAsOnCard">Nome como está no cartão</string>
+    <string name="cardNumber">Número do cartão</string>
+    <string name="expirationDate">Data de expiração</string>
+    <string name="securityCode">CVC</string>
+    <string name="preBookedOK">Pré-reserva efetuada com sucesso.  Você tem até 10min para concluir o pagamento.</string>
+    <string name="gender">Sexo</string>
+    <string name="acceptTermsUse">Li e aceito os <a href="http://www.google.com.br/#q=termos+de+uso">termos de uso</a> e a <a href="http://www.google.com.br/#q=politica+de+privaciade">política de privacidade</a></string>
+    <string name="validity">Validade</string>
+    <string name="CPFCNPJ">CPF/CNPJ</string>
+    <string name="birthdate">Data de Nascimento</string>
+    <string name="invalid_credit_card_number">O número do cartão é inválido</string>
+    <string name="error_invalid_identifier">CPF ou CNPJ inválido</string>
+    <string name="error_invalid_cvc">Código de segurança inválido</string>
+    <string name="updateCustomerData">Alterar dados da conta</string>
+    <string name="changePassword">Alterar senha</string>
+    <string name="accountUpdated">Seus dados foram atualizados</string>
+    <string name="currentPassword">Senha atual</string>
+    <string name="newpassword">Nova senha</string>
+    <string name="recoveryPasswEmail">E-mail de recuperação de senha</string>
+    <string name="recoveryPasswCode">Digite código enviado para o e-mail</string>
+    <string name="forgotPassword">Esqueci a senha</string>
+    <string name="send">Enviar</string>
+    <string name="codeDontMatch">Código não confere</string>
+    <string name="passwordChanged">Senha alterada com sucesso</string>
+    <string name="confirmation_grettings">Olá %1$s,</string>
+    <string name="confirmation_id">Seu agendamento %1$s foi confirmado com sucesso</string>
+    <string name="valorTotal">Valor Total</string>
+    <string name="storeFinder">Localizador de Lojas</string>
+    <string name="scheduleServices">Serviços agendados</string>
+    <string name="noSchedule">Nenhum agendamento encontrado</string>
+    <string name="Location">Procurando localização...</string>
+    <string name="semItensDisponiveis">Não há itens disponíveis</string>
+</resources>

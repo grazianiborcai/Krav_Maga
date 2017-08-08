@@ -1,0 +1,314 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CreateAccountActivity">
+
+    <FrameLayout
+        android:id="@+id/progress"
+        android:background="@color/semitransparent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLargeInverse"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/register_root"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay" >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:title="@string/adicionarNovaConta"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:id="@+id/scroll_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:title="@string/adicionarNovaConta"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin2"
+                    android:paddingRight="@dimen/activity_horizontal_margin2"
+                    android:layout_height="?attr/actionBarSize">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_account_grey600_24dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingLeft="36dp"
+                        android:text="@string/accountDetais"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/register_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin2"
+                    android:paddingRight="@dimen/activity_horizontal_margin2">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_marginTop="16dp"
+                        android:layout_height="wrap_content">
+
+                        <!--android:theme="@style/Account_EditTextStyle"-->
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_marginTop="@dimen/space">
+
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/phone"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_marginTop="@dimen/space" >
+
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:hint="@string/name"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_marginTop="@dimen/space">
+
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtLastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/lastname"
+                            android:inputType="textCapWords"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtAniversario"
+                            android:layout_width="0dp"
+                            android:layout_weight="12"
+                            android:layout_height="wrap_content"
+                            android:text="@string/birthday"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textSize="18sp"
+                            android:paddingLeft="3dp"/>
+
+                        <Spinner
+                            android:id="@+id/spBirthday"
+                            android:layout_width="0dp"
+                            android:layout_weight="18"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:spinnerMode="dropdown"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtSexo"
+                            android:layout_width="0dp"
+                            android:layout_weight="12"
+                            android:layout_height="wrap_content"
+                            android:text="@string/gender"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textSize="18sp"
+                            android:paddingLeft="3dp"/>
+
+                        <Spinner
+                            android:id="@+id/spGender"
+                            android:layout_width="0dp"
+                            android:layout_weight="18"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:spinnerMode="dropdown"/>
+
+                    </LinearLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space">
+
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        app:hintTextAppearance="@style/grayFloatingLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space">
+
+                        <com.krav.att.attendance_teacher.Views.BackAwareEditText
+                            android:id="@+id/edtConfirmPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="@string/confirmPassword"
+                            android:textCursorDrawable="@drawable/graycursor"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:imeOptions="actionDone" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acceptTermsUse"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="24dp"
+                        android:theme="@style/checkbox" />
+                    <!--
+                                        <LinearLayout
+                                            android:layout_marginTop="8dp"
+                                            android:layout_width="match_parent"
+                                            android:orientation="horizontal"
+
+                                            android:layout_height="wrap_content">
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:id="@+id/txtTermsOfUse"
+                                                android:text="@string/acceptTermsUse2"
+                                                android:layout_gravity="center_vertical"
+                                                android:layout_marginRight="6dp"
+                                                android:textColor="@android:color/holo_blue_dark"
+                                                android:layout_height="wrap_content"/>
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:text="@string/acceptTermsUse3"
+                                                android:id="@+id/txtPrivacyPolicy"
+                                                android:textColor="@android:color/holo_blue_dark"
+                                                android:layout_gravity="center_vertical"
+                                                android:layout_height="wrap_content"/>
+                                        </LinearLayout>
+                    -->
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:backgroundTint="@drawable/fab_selector"
+        android:src="@drawable/ic_content_save_white_36dp"
+        app:layout_anchor="@+id/register_root"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+</android.support.design.widget.CoordinatorLayout>
