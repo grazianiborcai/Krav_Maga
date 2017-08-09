@@ -54,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="#E0E0E0">
 
                 <LinearLayout
                     android:title="@string/adicionarNovaConta"

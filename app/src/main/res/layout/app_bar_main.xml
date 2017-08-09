@@ -7,6 +7,14 @@
     android:fitsSystemWindows="true"
     tools:context=".Activity.MainActivity">
 
+    <ImageView
+        android:id="@+id/login_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/background003"
+        />
+
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -14,12 +22,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--android:background="@android:color/transparent"
-    app:elevation="0dp"-->
+
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-
+        android:background="@color/colorPrimaryTrans"
+        app:elevation="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
         android:theme="@style/AppTheme.AppBarOverlay" >
 
         <!--android:background="@android:color/transparent"-->
@@ -27,7 +38,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-
+            android:background="@android:color/transparent"
             app:popupTheme="@style/AppTheme.PopupOverlay" >
 
         </android.support.v7.widget.Toolbar>

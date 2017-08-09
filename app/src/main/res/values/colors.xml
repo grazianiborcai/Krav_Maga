@@ -2,14 +2,20 @@
 <resources>
     <drawable name="dialog_item_pressed_color">#DDDDDD</drawable>
     <!--Main collors begin-->
+    <color name="colorPrimaryDarkTrans">#99263238</color>
+    <color name="colorPrimary800Trans">#9937474F</color>
+    <color name="colorPrimary700Trans">#99455A64</color>
+    <color name="colorPrimary600Trans">#99546E7A</color>
+
+    <color name="colorRipple">#ffECEFF1</color><!--50-->
+
     <color name="colorPrimaryDark">#455A64</color><!--700-->
-    <!--<color name="colorPrimaryDark">#00695C</color>-->
     <color name="colorPrimaryMedium">#546E7A</color><!--600-->
     <!--<color name="colorPrimaryMedium">#00796B</color>-->
     <color name="colorPrimary">#607D8B</color><!--500-->
-    <color name="colorPrimaryTrans">#80607D8B</color>
+    <color name="colorPrimaryTrans">#99607D8B</color>
     <color name="colorButton">#90A4AE</color><!--300-->
-    <color name="colorButtonTrans">#8090A4AE</color>
+    <color name="colorButtonTrans">#9990A4AE</color>
     <color name="colorBottomButtonPressed">#d15050</color>
     <!--<color name="colorBottomButtonPressed">#26A69A</color>-->
     <color name="calendarSelectionColor">#c62828</color>
